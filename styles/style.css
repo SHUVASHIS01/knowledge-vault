@@ -365,4 +365,59 @@ img {
     font-size: 14px;
     color: #9CA3AF;
 }
+.footer {
+    padding: 60px 0 24px;
+    background-color: #111827;
+    /* Dark footer */
+    color: white;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Align to top */
+    margin-bottom: 40px;
+}
+.footer-logo-wrapper {
+    flex-shrink: 0;
+}
+.footer-logo-img {
+    height: 48px;
+    /* Adjust as needed */
+    width: auto;
+}
+.footer-social-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* Align right */
+}
+.social-heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-socials {
+    display: flex;
+    gap: 16px;
+}
+.social-link {
+    display: flex;
+    transition: transform 0.2s ease;
+}
+.social-link:hover {
+    transform: translateY(-2px);
+}
+.footer-divider {
+    height: 1px;
+    background-color: #374151;
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+.copyright {
+    text-align: center;
+    color: #9CA3AF;
+    font-size: 14px;
+}
 
