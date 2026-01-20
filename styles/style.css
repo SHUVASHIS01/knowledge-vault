@@ -123,3 +123,88 @@ img {
     justify-self: end;
 }
 
+.btn-secondary-lg {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+.btn-secondary-lg:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+.btn-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.hero-section {
+    position: relative;
+    background-image: linear-gradient(rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.7)), url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 160px 0 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    padding: 6px 16px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #15803D;
+    margin-bottom: 32px;
+}
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #30B868;
+    border-radius: 50%;
+    margin-right: 12px;
+
+    box-shadow: 0 0 0 4px rgba(48, 184, 104, 0.2);
+
+}
+.hero-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: white;
+}
+.hero-title .highlight {
+    color: #30B868;
+}
+.hero-description {
+    font-size: 20px;
+    color: #D1D5DB;
+    margin-bottom: 48px;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-secondary-lg .btn-icon {
+    filter: brightness(0) invert(1);
+}
