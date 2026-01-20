@@ -224,7 +224,6 @@ img {
 }
 .section-subtitle {
     font-size: 18px;
-    color: var(--text-light);
 }
 .cards-grid {
     display: grid;
@@ -272,6 +271,53 @@ img {
 }
 .card p {
     font-size: 16px;
-    color: var(--text-light);
     line-height: 1.5;
 }
+.second-brain-section {
+    padding: 80px 0;
+    
+}
+.second-brain-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.sb-image {
+    flex: 1;
+}
+.sb-text {
+    flex: 1;
+}
+.badge {
+    color: #30B868
+}
+.sb-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    color: #111827;
+}
+.sb-description {
+    font-size: 18px;
+    color: var(--text-light);
+    margin-bottom: 32px;
+}
+.sb-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.sb-list li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #374151;
+}
+.list-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
